@@ -1,1 +1,30 @@
+// Caminho da pasta onde estão os projetos
+const pasta = "projetos/";
+
+// Lista dos seus 12 projetos (você preenche com os nomes)
+const imagens = [
+  "projeto1.jpg",
+  "projeto2.jpg",
+  "projeto3.jpg",
+  "projeto4.jpg",
+  "projeto5.jpg",
+  "projeto6.jpg",
+  "projeto7.jpg",
+  "projeto8.jpg",
+  "projeto9.jpg",
+  "projeto10.jpg",
+  "projeto11.jpg",
+  "projeto12.jpg",
+];
+
+// Onde as imagens vão aparecer
+const container = document.querySelector("#projetos-container");
+
+// Criar cada imagem automaticamente
+imagens.forEach(nome => {
+  let img = document.createElement("img");
+  img.src = pasta + nome;
+  img.className = "projeto-img";
+  container.appendChild(img);
+});
 
