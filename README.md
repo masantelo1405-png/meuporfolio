@@ -451,16 +451,3 @@ footer {
     background: rgba(255,255,255,0.85);
     color: #6a0dad;
 }
-<img width="500" height="500" alt="logo" src="https://github.com/user-attachments/assets/ad21d9df-fbc1-4800-b614-5fd229fd96ef" />
-![projeto1](https://github.com/user-attachments/assets/d8f0ba58-903b-4196-8c2f-e42bcdd727a0)
-![projeto2](https://github.com/user-attachments/assets/2e33e611-3f3d-44d5-87a2-fbd3933383e6)
-<img width="987" height="1316" alt="projeto3" src="https://github.com/user-attachments/assets/22dac0dd-df91-4506-b6ba-f2a8e4b0f541" />
-<img width="526" height="558" alt="projeto4" src="https://github.com/user-attachments/assets/eb5485db-866e-43d2-9b5d-2279d1444ff3" />
-<img width="1199" height="1199" alt="projeto5" src="https://github.com/user-attachments/assets/c8009a8e-2a6a-439b-bc22-42394f12bb4c" />
-![projeto6](https://github.com/user-attachments/assets/9a462b57-f998-407a-9db1-3e47001a4820)
-![projeto7](https://github.com/user-attachments/assets/8eac896d-e204-472e-bce2-c69a074b5030)
-![projeto8](https://github.com/user-attachments/assets/6e1ae7c9-7f50-4547-ac82-d81b440869a1)
-![projeto9](https://github.com/user-attachments/assets/0b235119-9a4a-4d68-8aff-890d405031bf)
-<img width="766" height="580" alt="projeto10" src="https://github.com/user-attachments/assets/534d5731-134b-427e-be0f-24d50c002f0f" />
-<img width="810" height="670" alt="projeto11" src="https://github.com/user-attachments/assets/0a797d14-8bad-420a-80e4-229103842ab6" />
-<img width="802" height="710" alt="projeto12" src="https://github.com/user-attachments/assets/cd439367-1310-4602-b089-2dac156d625d" />
