@@ -1,1 +1,157 @@
+/* ----- RESET ----- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ----- ESTILO GERAL ----- */
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    color: #333;
+    scroll-behavior: smooth;
+
+    /* Fundo lilás pastel + textura leve */
+    background-color: #f3e8ff;
+    background-image: url('projetos/textura.png'); /* coloque sua textura aqui */
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: top left;
+}
+
+/* ----- HEADER ----- */
+header {
+    text-align: center;
+    border-bottom: 3px solid #8a2be2;
+    padding: 20px 0;
+    background: rgba(255,255,255,0.85); /* semi-transparente para ver a textura */
+}
+
+header img {
+    width: 90%;        /* logo gigante */
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px auto;
+    border-radius: 20px;
+}
+
+header h1 {
+    margin: 10px 0 5px 0;
+    color: #8a2be2;
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1.4em;
+    margin: 0 0 20px 0;
+}
+
+/* ----- NAV ----- */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background: rgba(255,255,255,0.85);
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #8a2be2;
+}
+
+/* ----- SEÇÕES ----- */
+section {
+    padding: 80px 20px;
+    min-height: 100vh;
+    background: rgba(255,255,255,0.85); /* semi-transparente para ver textura */
+}
+
+/* ----- TÍTULOS ----- */
+h2 {
+    color: #8a2be2;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* ----- HABILIDADES ----- */
+.habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.habilidade {
+    background: #fff;
+    border: 2px solid #8a2be2;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    transition: transform 0.3s;
+}
+
+.habilidade:hover {
+    transform: translateY(-5px);
+}
+
+/* ----- SERVIÇOS ----- */
+.servicos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.servico {
+    background: #fff;
+    border-left: 5px solid #8a2be2;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* ----- PROJETOS ----- */
+#projetos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.projeto-link {
+    text-decoration: none;
+}
+
+.projeto-img {
+    width: 250px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.projeto-img:hover {
+    transform: scale(1.05);
+}
+
+/* ----- FOOTER ----- */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255,255,255,0.85);
+    color: #6a0dad;
+}
 
